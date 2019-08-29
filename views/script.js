@@ -7,8 +7,8 @@ var numChar = 0;
 //var req = require('./node_modules/req/node_modules/request');
 
 // *var phrases = ["Early bird gets the worm", "Read between the lines", "I can eat a horse", "Twenty-four seven", "Cat got your tounge", "One in one million", "I beg to differ", "Easier said than done", "Add insult to injury", "Don't cry over spilled milk", "Curiosity killed the cat", "Two peas in a pod", "That's the last straw", "Piece of cake", "Speak of the devil", "Go the whole nine yards", "An eye for an eye", "Hit the hay", "Stab someone in the back", "Quit cold turkey", "Cut to the chase", "Best of both worlds", "Kill two birds with one stone", "Break a leg", "Hit the nail on the head", "Kick the bucket"];  */
-var movies = ["The Godfather", "The Bucket List", "Titanic", "The Terminal", "Chinatown", "Millions", "Cast Away", "Braveheart", "Avengers:Endgame", "Spider-man:Far From Home", "Rocketman", "3 Idiots", "Amar Akbar Anthony", "Hakuna Matata", "Dangal", "Entertainment", "Black", "Queen", "Kahaani", "Sholay", "Jurassic Park"];
-var songs = ["Tum hi ho", "Pehla Nasha", "Tamma Tamma Again", "Humsafar", "Bekhayali", "Tere Sang Yaara", "Kya Hua Tera Wada", "Kal Ho Naa Ho", "Chaar Bottle Vodka", "Badtameez Dil", "Tere Bina", "Cheap Thrills", "Taki Taki", "Love Me Like You Do", "Despacito"];
+var movies = ["The Godfather", "The Bucket List", "Titanic", "The Terminal", "Millions", "Cast Away", "Braveheart", "Avengers Endgame", "Spiderman Far From Home", "Jurassic Park", "Avatar", "Inception", "First Man", "Lion", "Arrival", "Citizen kane", "The Shawshank Redemption", "Fight club", "Back to the future"];
+var songs = ["Gangnam Style", "Shape of you", "Cheap Thrills", "Despacito", "Love me like you do", "Taki Taki", "Rockstar", "Titanium", "Wavin flag", "Stressed out", "Boulevard of broken dreams"];
 //var challenges = ["A"];
 
 function sp(){
