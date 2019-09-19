@@ -7,15 +7,15 @@ var numChar = 0;
 //var req = require('./node_modules/req/node_modules/request');
 
 // *var phrases = ["Early bird gets the worm", "Read between the lines", "I can eat a horse", "Twenty-four seven", "Cat got your tounge", "One in one million", "I beg to differ", "Easier said than done", "Add insult to injury", "Don't cry over spilled milk", "Curiosity killed the cat", "Two peas in a pod", "That's the last straw", "Piece of cake", "Speak of the devil", "Go the whole nine yards", "An eye for an eye", "Hit the hay", "Stab someone in the back", "Quit cold turkey", "Cut to the chase", "Best of both worlds", "Kill two birds with one stone", "Break a leg", "Hit the nail on the head", "Kick the bucket"];  */
-var movies = ["The Godfather", "The Bucket List", "Titanic", "The Terminal", "Millions", "Cast Away", "Braveheart", "Avengers Endgame", "Spiderman Far From Home", "Jurassic Park", "Avatar", "Inception", "First Man", "Lion", "Arrival", "Citizen kane", "The Shawshank Redemption", "Fight club", "Back to the future"];
+var movies = ["apocalypse now","skyrim","jack reacher","mission impossible","The Godfather","rampage","baywatch","jumanji","american psycho","The shining","The conjuring","insidious","sinister","the prestige","it","up","gladiator","the sound of music","deadpool","wolverine","dark knight","moana","home alone","deathnote","catch me if you can"];
 var songs = ["Gangnam Style", "Shape of you", "Cheap Thrills", "Despacito", "Love me like you do", "Taki Taki", "Rockstar", "Titanium", "Wavin flag", "Stressed out", "Boulevard of broken dreams"];
 //var challenges = ["A"];
-
+var emailid
 function sp(){
     //console.log(req.body);
     //console.log('sp here ');
 
-    var emailid = document.getElementById('cloudemailtest').value;
+    emailid = document.getElementById('cloudemailtest').value;
     var params = {'emailid':emailid};
     console.log(emailid);
     //cloudant
@@ -438,9 +438,9 @@ function win(){
     var again = document.getElementById('again');
     var results = document.getElementById('results');
         results.style.visibility = "visible";
-        results.style.color = "#00b100";
+        results.style.color = "#FF0000";
     if(numWrong > 6){
-        results.innerHTML = "It's about time you figured it out...";
+        results.innerHTML = "You lost!";
         document.getElementById('letterBank').style.display = "none";
         again.style.display = "block";
         document.getElementById('home').style.display = "block";
@@ -459,7 +459,7 @@ function win(){
         }
     }
     else{
-        results.innerHTML = "You win!";
+        results.innerHTML = "<h1><span style='color:rgb(0,0,0)]'>"+emailid+"</span>"+"  You win!<h1>";
         document.getElementById('letterBank').style.display = "none";
         again.style.display = "block";
         document.getElementById('home').style.display = "block";
