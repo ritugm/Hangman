@@ -8,7 +8,7 @@ var numChar = 0;
 
 // *var phrases = ["Early bird gets the worm", "Read between the lines", "I can eat a horse", "Twenty-four seven", "Cat got your tounge", "One in one million", "I beg to differ", "Easier said than done", "Add insult to injury", "Don't cry over spilled milk", "Curiosity killed the cat", "Two peas in a pod", "That's the last straw", "Piece of cake", "Speak of the devil", "Go the whole nine yards", "An eye for an eye", "Hit the hay", "Stab someone in the back", "Quit cold turkey", "Cut to the chase", "Best of both worlds", "Kill two birds with one stone", "Break a leg", "Hit the nail on the head", "Kick the bucket"];  */
 var movies = ["Apocalypse Now","Skyrim","Jack Reacher","Mission Impossible","The Godfather","Rampage","Baywatch","Jumanji","American Psycho","The Shining","The Conjuring","Insidious","Sinister","The Prestige","Gladiator","The Sound of Music","Deadpool","Wolverine","Dark Knight","Moana","Home Alone","Deathnote","Catch Me If You Can"];
-var songs = ["Gangnam Style", "Shape of you", "Cheap Thrills", "Despacito", "Love me like you do", "Taki Taki", "Rockstar", "Titanium", "Wavin flag", "Stressed out", "Boulevard of broken dreams"];
+var songs = ["Gangnam Style", "Shape of you", "Cheap Thrills", "Despacito", "Love Me Like You Do", "Taki Taki", "Rockstar", "Titanium", "Wavin Flag", "Stressed Out", "Boulevard of Broken Dreams"];
 //var challenges = ["A"];
 var emailid
 function sp(){
