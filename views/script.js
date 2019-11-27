@@ -459,7 +459,7 @@ function win(){
         }
     }
     else{
-        results.innerHTML = "<h1><span style='color:rgb(0,0,0)]'>"+emailid+"</span>"+"  You win!<h1><center><a href='https://bit.ly/devcxyz'> Sign up for our devNurture Program(Beta)</a><p6> A web push notification will be sent to your device as per your preferences</p6></center>";
+        results.innerHTML = "<h1><span style='color:rgb(0,0,0)]'>"+emailid+"</span>"+"  You win!";
         document.getElementById('letterBank').style.display = "none";
         again.style.display = "block";
         document.getElementById('home').style.display = "block";
