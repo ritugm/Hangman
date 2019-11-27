@@ -460,8 +460,8 @@ function win(){
     }
     else{
         results.innerHTML = "<h1><span style='color:rgb(0,0,0)]'>"+emailid+"</span>"+"  You win!<h1>";
-        results.innnerHTML = "<a href='bit.ly/devcxyz'> Sign up for our devNurture Program(Beta)</a>
-             <p6> A web push notification will be sent to your device as per your preferences</p6>"
+        results.innnerHTML = "<center><a href='bit.ly/devcxyz'> Sign up for our devNurture Program(Beta)</a>
+             <p6> A web push notification will be sent to your device as per your preferences</p6></center>"
         document.getElementById('letterBank').style.display = "none";
         again.style.display = "block";
         document.getElementById('home').style.display = "block";
