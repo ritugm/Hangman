@@ -414,7 +414,7 @@ function guessLetter(){
         }
     }
     if(numWrong==7){
-        results.innerHTML = "You lose!<br>Keep guessing until you get it right.<h1><center><a href='bit.ly/devcxyz'> Sign up for our devNurture Program(Beta)</a><br><p6> A web push notification will be sent to your device as per your preferences</p6></center>";
+        results.innerHTML = "You lose!<br>Keep guessing until you get it right";
         document.getElementById('again').style.display = "block";
         document.getElementById('home').style.display = "block";
         document.getElementById('vidSent').style.display = "block";
